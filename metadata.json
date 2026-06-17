@@ -1,0 +1,8 @@
+{
+  "name": "Bengali Voice-Over Studio",
+  "description": "An interactive Bengali AI Voice-Over generation tool and practicing studio with voice trainer feedback.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

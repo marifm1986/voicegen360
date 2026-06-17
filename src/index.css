@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Hind Siliguri", "Inter", system-ui, sans-serif;
+  --font-display: "Hind Siliguri", "Inter", sans-serif;
+}
+
+/* Professional Polish theme customizations */
+body {
+  font-family: var(--font-sans);
+  background-color: #f8fafc;
+  color: #0f172a;
+  overflow-x: hidden;
+}
+
+/* Custom elevations, borders and highlights matching VoiceCraft style */
+.glow-accent {
+  box-shadow: 0 4px 20px -2px rgba(79, 70, 229, 0.12);
+}
+
+.glow-btn {
+  box-shadow: 0 4px 14px 0 rgba(79, 70, 229, 0.35);
+}
+
+.accent-border {
+  border-color: rgba(79, 70, 229, 0.2);
+}
+
